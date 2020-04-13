@@ -22,7 +22,7 @@ int editDistance(string first, string second, int len1, int len2){
 		return len1;
 
 	if(first[len1 - 1] == second[len2 - 1])
-		editDistance(first,second,len1 - 1,len2 - 1);
+		return editDistance(first,second,len1 - 1,len2 - 1);
 
 	return 1 + min(editDistance(first,second,len1 - 1,len2 - 1),
 			editDistance(first,second,len1,len2 - 1),

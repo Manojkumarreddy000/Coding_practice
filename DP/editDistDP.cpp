@@ -15,6 +15,7 @@ int min( int a, int b, int c){
 
 int editDistance(string first, string second, int len1, int len2){
 	int dp[len1+1][len2+1];
+
 	for(int i=0,j;i<len1;i++)
 		for(j=0;j<len2;j++){
 
