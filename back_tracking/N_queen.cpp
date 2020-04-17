@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define N 4
+#define N 30
 int number_of_solutions;
 int see_solutions;
 
